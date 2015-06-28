@@ -552,15 +552,16 @@ button {
 .benefits .content h2,h3 {
   color: #1d1e21;
   margin-top: 7.875rem;
+  margin-bottom: 0;
 }
 
 .benefits h3 {
   font-size: 1.563rem;
   margin: 2.5rem 0px 1.875rem;
   font-weight: 400;
+  white-space: nowrap;
 }
 .benefits .devices {
-  width: 33.3333333%;
   box-sizing: border-box;
   height: 4em;
   padding: 2em;
