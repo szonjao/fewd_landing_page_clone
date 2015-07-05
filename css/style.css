@@ -537,9 +537,9 @@ button {
 }
 /* Benefits Section */
 .benefits {
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
 }
-.benefits .content {
+.benefits .content, {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -548,6 +548,7 @@ button {
 .benefits h2 {
   font-size: 2.75rem;
   font-weight: 300;
+  text-align: center;
 }
 .benefits .content h2,h3 {
   color: #1d1e21;
@@ -563,15 +564,59 @@ button {
 }
 .benefits .devices {
   box-sizing: border-box;
-  height: 4em;
+  min-height: 4em;
   padding: 2em;
 }
 
 .benefits .devices > li {
   width: 33.3333333%;
-  float: left;
+  display: table-cell;
   text-align: center;
   padding: 2em;
 }
 
+footer hr {
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
+
+footer h5 {
+  text-align: center;
+  font-size: 100%;
+}
+
+
+footer .icons > li {
+  border: 1px solid #eaebec;
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  text-align: center;
+  margin: 1.25rem 5px;
+  padding: 0.625rem 0;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
+.social .twitter {
+  color: #55acee;
+}
+
+.social .facebook {
+  color: #4c66a4;
+}
+
+.social .instagram {
+  color: #3f729b;
+}
+
+footer .copy {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+  display: block;
 }
